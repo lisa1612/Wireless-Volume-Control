@@ -2,7 +2,7 @@
 
 A Python-based **Wireless Volume Control** system that allows users to adjust their computer’s volume using hand gestures, powered by **OpenCV, MediaPipe, and Pycaw**.
 
-## ✨ Features
+## Features
 - Adjust system volume using hand gestures
 - Utilizes OpenCV for real-time video capture
 - Uses MediaPipe for hand-tracking
@@ -17,7 +17,7 @@ Ensure you have Python installed on your system. Then, install the required depe
 pip install opencv-python mediapipe numpy comtypes pycaw
 ```
 
-## 🚀 Usage
+## Usage
 
 1. **Clone the Repository**
 
@@ -36,7 +36,7 @@ jupyter notebook
 
 Run the provided `.ipynb` file to start gesture-based volume control.
 
-## How It Works
+## 🚀 How It Works
 - The script captures video from the webcam
 - MediaPipe detects hand landmarks
 - The distance between the thumb and index finger determines volume level
